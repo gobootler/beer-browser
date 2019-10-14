@@ -8,8 +8,8 @@ Start off by forking this repository into your own github profile. What you will
 ## *Brief*
 ### 1. Create a simple webapp that uses React (and ideally redux). i.e: https://github.com/facebook/create-react-app
 ### 2. This app should consist of two screens.
-####  A. Page for browsing beer styles. The “beers” page will display a list of all beers, with a button that allows you to "favorite" any of them. 
-####  B. The “favorites” page will show a list of all the beers that the user has favorited.
+#### ⋅⋅⋅A. Page for browsing beer styles. The “beers” page will display a list of all beers, with a button that allows you to "favorite" any of them. 
+#### ⋅⋅⋅B. The “favorites” page will show a list of all the beers that the user has favorited.
 
 
  ## *Details*
