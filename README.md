@@ -30,18 +30,18 @@ The API returns up to 50 results per page, so have your screen do the same, with
 You only need to support one user, and they don't need to go through any kind of login process, so the user state will likely just consist of the list of their favorites.
 
 
-## *Measurables*
-### 1. At the conclusion of this project, you will have a locally-running application that we can clone on our machines and run locally ourselves in the same way.
- #### Please provide any run instructions we will need inside your Readme.md
+### *Measurables*
+#### 1. At the conclusion of this project, you will have a locally-running application that we can clone on our machines and run locally ourselves in the same way.
+ ##### Please provide any run instructions we will need inside your Readme.md
 
-### 2. We’re interested in code quality and organization much more than a pretty appearance on the frontend ([s]css). So don’t worry about spending a lot of time styling things, a very basic look is all you need.
+#### 2. We’re interested in code quality and organization much more than a pretty appearance on the frontend ([s]css). So don’t worry about spending a lot of time styling things, a very basic look is all you need.
 
-### 3. Use React, and Redux for state management. During requests to the beer API, the state should reflect that there is a request in progress, and should some kind of loading indicator on the front end.
+#### 3. Use React, and Redux for state management. During requests to the beer API, the state should reflect that there is a request in progress, and should show some kind of loading bar on the front end.
 
-### 4. Spend time at the start of the project to plan things out. You want to make sure that you have exactly as many reducers and actions as it would make sense to use.
+##### Note: Spend time at the start of the project to plan things out. You want to make sure that you have exactly as many reducers and actions as it would make sense to use.
 
 
-## *Bonus Section*
-### If you finish the above, and/or the above seems too trivial to you, build this with next.js!
+### *Bonus Section*
+#### If you finish the above, and/or the above seems too trivial to you, build this with next.js!
 Build this with [Next.js](https://nextjs.org), which handles routing and supports serverside rendering. This framework should be used in addition to React and Redux. They have nice tutorials [here](https://nextjs.org/learn/basics/getting-started). If you attempt this, you should make use of Next’s `getInitialProps()` lifecycle function to initially get the data for populating your state. Details about that function can be found here: https://nextjs.org/docs#fetching-data-and-component-lifecycle
-#### Note: next.js is it's own beast! Be careful going this route, as seeing a working web app doing what is listed outside of this bonus section is the main goal.
+##### Note: next.js is it's own beast! Be careful going this route, as seeing a working web app doing what is listed outside of this bonus section is the main goal.
