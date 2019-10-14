@@ -22,7 +22,8 @@ Start off by forking this repository into your own github profile. What you will
 ##### 1. Sort alphabetically (ascending + descending) by beer name. 
 The API returns up to 50 results per page, so have your screen do the same, with a “load more results” button at the bottom that will request the next page of results and then slot them in under existing ones, without any kind of page reload. (https://www.brewerydb.com/developers/docs/endpoint/beer-index)
 
-##### 2. Each beer entry will have a “favorite” button beside it, which will toggle whether or not that beer is a part of the user's list of favorite beers, STORED IN THE REDUX STATE. 
+##### 2. Each beer will have “favorite” button beside it:
+which will toggle whether or not that beer is a part of the user's list of favorite beers, STORED IN THE REDUX STATE. 
 
 ### Favorites Page
 #### The favorites page will show a list of the beer names that the user has favorited. 
@@ -32,13 +33,10 @@ You only need to support one user, and they don't need to go through any kind of
 
 ### *Measurables*
 1. At the conclusion of this project, you will have a locally-running application that we can clone on our machines and run locally ourselves in the same way.
- ##### Please provide any run instructions we will need inside your Readme.md
-
+Please provide any run instructions we will need inside your Readme.md
 2. We’re interested in code quality and organization much more than a pretty appearance on the frontend ([s]css). So don’t worry about spending a lot of time styling things, a very basic look is all you need.
-
 3. Use React, and Redux for state management. During requests to the beer API, the state should reflect that there is a request in progress, and should show some kind of loading bar on the front end.
-
-##### Note: Spend time at the start of the project to plan things out. You want to make sure that you have exactly as many reducers and actions as it would make sense to use.
+4. Spend time at the start of the project to plan things out. You want to make sure that you have exactly as many reducers and actions as it would make sense to use.
 
 
 ### *Bonus Section*
